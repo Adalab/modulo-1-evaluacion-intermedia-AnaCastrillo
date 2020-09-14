@@ -31,7 +31,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 0;
   z-index: 200;
 }
 
@@ -70,10 +69,11 @@ main {
 h1 {
   position: absolute;
   top: calc(50% - 45px);
-  width: 75%;
+  left: 30%;
+  width: 40%;
   text-align: center;
   font-size: 30px;
-  left: 12%;
+
   color: #ffffff;
 }
 /* end main */
@@ -95,8 +95,6 @@ h1 {
 
   h1 {
     font-size: 40px;
-    width: 40%;
-    left: 30%;
     top: calc(50% - 60px);
   }
 }
