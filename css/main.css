@@ -73,6 +73,7 @@ h1 {
   width: 150px;
   font-size: 30px;
   color: #ffffff;
+  text-transform: capitalize;
 }
 /* end main */
 
