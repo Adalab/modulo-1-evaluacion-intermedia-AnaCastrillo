@@ -63,17 +63,15 @@ header {
 main {
   height: 100vh;
   background-color: #3cdbc0;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
-  position: absolute;
-  top: calc(50% - 45px);
-  left: 30%;
-  width: 40%;
-  text-align: center;
+  width: 150px;
   font-size: 30px;
-
   color: #ffffff;
 }
 /* end main */
@@ -95,6 +93,6 @@ h1 {
 
   h1 {
     font-size: 40px;
-    top: calc(50% - 60px);
+    width: 200px;
   }
 }
