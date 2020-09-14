@@ -1,0 +1,78 @@
+/* style reset */
+
+* {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* end reset */
+
+/* header */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0;
+  z-index: 200;
+}
+
+.logo {
+  width: 155px;
+  margin: 10px;
+}
+
+.menu {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  display: flex;
+  margin: 0 auto 13px;
+  justify-content: center;
+}
+
+.menu a {
+  color: #4a4a4a;
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+/* end header */
+
+/* main */
+
+main {
+  height: 100vh;
+  background-color: #3cdbc0;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: calc(50% - 45px);
+  width: 75%;
+  text-align: center;
+  font-size: 30px;
+  left: 12%;
+  color: #ffffff;
+}
