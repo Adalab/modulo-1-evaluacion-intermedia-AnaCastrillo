@@ -43,11 +43,11 @@ header {
 .menu {
   width: 100%;
   text-transform: uppercase;
+  margin: 0 auto 13px;
 }
 
 .menu ul {
   display: flex;
-  margin: 0 auto 13px;
   justify-content: center;
 }
 
@@ -75,4 +75,28 @@ h1 {
   font-size: 30px;
   left: 12%;
   color: #ffffff;
+}
+/* end main */
+
+@media all and (min-width: 768px) {
+  header {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 20px 30px;
+  }
+
+  .menu {
+    width: initial;
+    margin: 0 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    width: 40%;
+    left: 30%;
+    top: calc(50% - 60px);
+  }
 }
